@@ -18,7 +18,7 @@ npm test runs38 existing checks. These include an independent Python reference u
 
 The dedicated Vercel project uses this repository root, Vite, npm run build and dist. The corrected root vercel.json and .vercelignore replace the inherited upstream landing-site deployment settings. Old docs/deployment.md describes the historical DopaTeam site and is not authoritative for this independent project.
 
-A reviewed push to main triggers Vercel production deployment after GitHub integration is connected. Check the deployment and GitHub Vercel status before treating an update as live. The CI workflow also installs locked dependencies, runs the38 checks and builds the app.
+The dedicated Vercel project is connected to this GitHub repository. A reviewed push to main triggers Vercel production deployment. Check the deployment and GitHub Vercel status before treating an update as live. The CI workflow also installs locked dependencies, runs the38 checks and builds the app.
 
 ## Use
 
