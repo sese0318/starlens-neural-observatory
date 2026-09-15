@@ -32,4 +32,6 @@ DopaTeam supplies the research workspace and numerical functions. FreeSurfer sup
 
 ## Verification scope
 
+See [Public release security review](docs/publication-security.md) for the2026-09-15 audit, browser-local data handling, Google Fonts request, security headers and remaining limitations.
+
 The original source and its published build were previously compared to version5. This extraction changes hosting setup, source documentation and the root entry only. Fresh browser interaction still requires an available browser connection; automated checks and successful HTTP requests alone do not verify WebGL interaction.
