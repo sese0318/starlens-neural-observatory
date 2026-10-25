@@ -35,3 +35,13 @@ DopaTeam supplies the research workspace and numerical functions. FreeSurfer sup
 See [Public release security review](docs/publication-security.md) for the2026-09-15 audit, browser-local data handling, Google Fonts request, security headers and remaining limitations.
 
 The original source and its published build were previously compared to version5. This extraction changes hosting setup, source documentation and the root entry only. Fresh browser interaction still requires an available browser connection; automated checks and successful HTTP requests alone do not verify WebGL interaction.
+
+## License
+
+The StarLens source code is released under the [MIT License](LICENSE).
+FreeSurfer-derived brain surface data in `public/atlas/` (`lh.json`, `rh.json`,
+`subcortex.json` and their provenance/validation metadata) is **not** MIT-licensed: it
+remains under the FreeSurfer Software License Agreement from The General Hospital
+Corporation (MGH), reproduced in [`public/atlas/LICENSE-FreeSurfer.txt`](public/atlas/LICENSE-FreeSurfer.txt).
+See [NOTICE.md](NOTICE.md) and [`public/atlas/PROVENANCE.md`](public/atlas/PROVENANCE.md).
+`public/observatory/stage.glb` is a third-party-generated Higgsfield 3D Jutsu asset and is also outside the MIT grant.
